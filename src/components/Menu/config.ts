@@ -7,7 +7,7 @@ export const config: MenuEntry[] = [
     href: '/',
   },
   {
-    label: 'Buy $PEFI',
+    label: 'Buy $SCARE',
     icon: 'TradeIcon',
     href: 'https://app.pangolin.exchange/#/swap?outputCurrency=0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c',
   },
@@ -95,7 +95,7 @@ export const socials = [
   {
     label: 'Telegram',
     icon: 'TelegramIcon',
-    href: 'https://t.me/penguin_defi',
+    href: 'https://t.me/scarecrowfinance',
   },
   {
     label: 'Twitter',
