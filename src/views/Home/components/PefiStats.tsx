@@ -155,13 +155,13 @@ const PefiStats: React.FC<HarvestProps> = ({ pool }) => {
         </Heading>
         <Row>
           <Text color="primary" fontSize="14px">
-            {TranslateString(536, 'Circulating PEFI Supply:')}
+            {TranslateString(536, 'Circulating SCARE Supply:')}
           </Text>
           {totalSupply && <CardValue fontSize="14px" suffix=" PEFI" value={getBalanceNumber(totalSupply)} />}
         </Row>
         <Row>
           <Text color="primary" fontSize="14px">
-            {TranslateString(538, 'Total PEFI Burned:')}
+            {TranslateString(538, 'Total SCARE Burned:')}
           </Text>
           {burnedBalance && <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} />}
         </Row>
@@ -173,21 +173,21 @@ const PefiStats: React.FC<HarvestProps> = ({ pool }) => {
         </Row>
         <Row>
           <Text color="primary" fontSize="14px">
-            {TranslateString(538, 'PEFI Marketcap:')}
+            {TranslateString(538, 'SCARE Marketcap:')}
           </Text>
           {pefiMarketcap && <CardValue fontSize="14px" prefix="$" value={pefiMarketcap} />}
         </Row>
         <Row>
           <Text color="primary" fontSize="14px">
-            {TranslateString(540, 'XPEFI to PEFI ratio:')}
+            {TranslateString(540, 'SCAREG to SCARE ratio:')}
           </Text>
           <CardValue fontSize="14px" decimals={3} value={xPefiToPefiRatio} />
         </Row>
         <Row>
           <Text color="primary" fontSize="14px">
-            {TranslateString(540, 'PEFI Emission Rate:')}
+            {TranslateString(540, 'SCARE Emission Rate:')}
           </Text>
-          <CardValue fontSize="14px" decimals={2} suffix=" PEFI/block" value={pefiPerBlock.toNumber()} />
+          <CardValue fontSize="14px" decimals={2} suffix=" SCARE/block" value={pefiPerBlock.toNumber()} />
         </Row>
         <Row>
           <Text color="primary" fontSize="14px">
@@ -197,7 +197,7 @@ const PefiStats: React.FC<HarvestProps> = ({ pool }) => {
         </Row>
         <Row>
           <Text color="primary" fontSize="14px">
-            {TranslateString(538, 'Max PEFI Supply:')}
+            {TranslateString(538, 'Max SCARE Supply:')}
           </Text>
           <CardValue fontSize="14px" bold value={PEFI_MAX_SUPPLY} />
         </Row>
